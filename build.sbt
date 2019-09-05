@@ -21,8 +21,8 @@ scalacOptions := Seq(
 libraryDependencies ++= Seq(
 
     // Gatling
-    "io.gatling.highcharts" % "gatling-charts-highcharts" % "3.2.0" % "test,it",
-    "io.gatling"            % "gatling-test-framework"    % "3.2.0" % "test,it",
+    "io.gatling.highcharts" % "gatling-charts-highcharts" % "3.2.1",
+    "io.gatling"            % "gatling-test-framework"    % "3.2.1",
 
     // ScalaTest
     "org.scalactic" %% "scalactic" % "3.0.8",
@@ -37,7 +37,7 @@ libraryDependencies ++= Seq(
     // JSON for Scala
     "org.json4s" %% "json4s-native" % "3.6.7",
 
-    "org.arrowwood" %% "gatling-common" % "0.1-SNAPSHOT"
+    "org.arrowwood" %% "gatling-common" % "0.8"
 )
 
 
