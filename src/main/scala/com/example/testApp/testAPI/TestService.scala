@@ -1,6 +1,8 @@
 package com.example.testApp.testAPI
 
 import io.gatling.core.Predef._
+import io.gatling.core.session.Expression
+
 import io.gatling.http.Predef._
 import io.gatling.http.request.builder.HttpRequestBuilder
 
@@ -19,7 +21,7 @@ trait TestService
 extends RESTfulService
 {
     def path : String
-    def url : String = TestApp.Api.Config.BaseURL + path
+    def url : Expression[String] = TestApp.Api.Config.BaseURL + path
 
     // If you needed to universally modify the generated requests,
     // you would uncomment this and tweak it as necessary
