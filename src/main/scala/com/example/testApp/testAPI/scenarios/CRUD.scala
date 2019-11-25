@@ -63,7 +63,7 @@ with PopulationBehavior
 
     // define the behavior of this population of users - the Scenario with an Injection Profile
     def behavior( x : Double ) : List[PopulationBuilder] = List(
-        perHour( x, PER_HOUR, behavior )
+        perHour( x, PER_HOUR )( behavior )
     ) 
 
 }

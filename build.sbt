@@ -4,7 +4,7 @@ organization := "org.arrowwood"
 
 version := "0.1"
 
-resolvers += "gatling-common" at "http://raw.github.com/JohnArrowwood/gatling-common/repository"
+// resolvers += "gatling-common" at "http://raw.github.com/JohnArrowwood/gatling-common/repository"
 
 enablePlugins(GatlingPlugin)
 scalaVersion := "2.12.8"
@@ -37,7 +37,7 @@ libraryDependencies ++= Seq(
     // JSON for Scala
     "org.json4s" %% "json4s-native" % "3.6.7",
 
-    "org.arrowwood" %% "gatling-common" % "0.9.4"
+    "org.arrowwood" %% "gatling-common" % "0.9.7"
 )
 
 
