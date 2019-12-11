@@ -37,7 +37,7 @@ libraryDependencies ++= Seq(
     // JSON for Scala
     "org.json4s" %% "json4s-native" % "3.6.7",
 
-    "org.arrowwood" %% "gatling-common" % "0.9.8"
+    "org.arrowwood" %% "gatling-common" % "0.9.11"
 )
 
 
